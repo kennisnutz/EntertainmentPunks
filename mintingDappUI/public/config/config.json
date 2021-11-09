@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x71aF2A884629FE7645C20E20A1dc99da3C89d75F",
+  "SCAN_LINK": "https://rinkeby.etherscan.io/address/0x71af2a884629fe7645c20e20a1dc99da3c89d75f",
+  "NETWORK": {
+    "NAME": "Rinkeby testnet",
+    "SYMBOL": "ETH",
+    "ID": 4
+  },
+  "NFT_NAME": "ENTERTAINMENT PUNKS NFT MINTING DAPP",
+  "SYMBOL": "EPUNKS",
+  "MAX_SUPPLY": 1000,
+  "WEI_COST": 250000000000000000,
+  "DISPLAY_COST": 2,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://testnets.opensea.io/collection/kucoinkongs",
+  "SHOW_BACKGROUND": true
+}
