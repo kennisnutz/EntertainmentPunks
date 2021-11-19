@@ -1,0 +1,111 @@
+.main-section {
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: hidden;
+  width: 100%;
+  min-height: 100vh;
+}
+.slider-holder{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 250px;  
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+.slider-img{
+  width: 215px;
+  height: 215px;
+  border-radius: 20px;
+}
+
+.main-box{
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 3rem;
+}
+.minted-count{
+  color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.logo{
+  height: 100px;
+}
+.price{
+  color: #fff;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.choose-network{
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+}
+.main-btn{
+  border:none;
+  outline: none;
+  color: #fff;
+  border-radius: 15px;
+  padding: 0.8rem 2.5rem;
+  background-color: #192532 !important;
+  width: 250px;
+  text-align: center;
+}
+.warning-msg{
+  color: rgb(194, 194, 194);
+  font-size: 1rem;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.normal-text{
+  text-align: center;
+  color: #fff;
+}
+.gallery-title{
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.slider-img:hover{
+  transform: scale(1.1,1.1);
+  cursor: pointer;
+}
+@media screen and (max-width: 800px) {
+  .container {
+   margin: 2.5rem 0rem;
+  }
+}
+@media screen and (max-width: 319px) {
+  .container {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+}
